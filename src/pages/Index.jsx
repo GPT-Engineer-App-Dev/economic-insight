@@ -20,14 +20,14 @@ const Index = () => {
       </Flex>
 
       {/* Main Headline Section */}
-      <Box as="section" p={8} bg="gray.100">
+      <Box as="section" p={8} bg="#f3f2ef">
         <Heading as="h2" size="2xl" mb={4}>Main Headline: Featured Article</Heading>
         <Image src="https://via.placeholder.com/800x400" alt="Featured Article" mb={4} />
         <Text fontSize="lg">This is a short description of the featured article. It provides a brief overview of the content to entice readers to click and read more.</Text>
       </Box>
 
       {/* Articles Grid */}
-      <Box as="section" p={8}>
+      <Box as="section" p={8} bg="#f3f2ef">
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={8}>
           <Box>
             <Image src="https://via.placeholder.com/400x200" alt="Article 1" mb={4} />
